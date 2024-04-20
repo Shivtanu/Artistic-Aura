@@ -1,0 +1,21 @@
+/* Carousel.css */
+.carousel {
+    overflow: hidden;
+    width: 100%;
+    max-width: 1200px; /* You can adjust this to fit your layout */
+}
+
+.carousel-inner {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.carousel-item {
+    flex: 0 0 100%;
+    text-align: center;
+}
+
+.carousel-item img {
+    width: 100%;
+    display: block; /* Removes bottom space/gap */
+}
